@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import './Input.scss';
+import "./Input.scss";
 export const Input = () => {
 	const [inputValue1, setInputValue1] = useState("");
 	const [inputValue, setInputValue] = useState("");
@@ -21,7 +21,12 @@ export const Input = () => {
 	return (
 		<div>
 			<label>Введите слово: </label>
-			<input type="text" value={inputValue1} onChange={handleChange} placeholder="text is console.log"/>
+			<input
+				type="text"
+				value={inputValue1}
+				onChange={handleChange}
+				placeholder="text is console.log"
+			/>
 			{/* <button>Add</button> */}
 			<input
 				type="text"
