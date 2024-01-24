@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  .paddcontainer {
+    padding-block: 45px;
+    padding-inline: 75px;
+    .cards {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 15px;
+      .card {
+        border: 3px solid black;
+        width: 450px;
+        height: 125px;
+        border-radius: 13px;
+        background-color: cornflowerblue;
+        p {
+          color: aliceblue;
+          font-size: 25px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
